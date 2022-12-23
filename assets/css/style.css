@@ -1,0 +1,24 @@
+.content-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    /* padding: 40px; */
+}
+.imgscreen{
+    position: absolute;
+    top: 37px;
+    left: 156px;
+}   
+.left{
+    align-items: center;
+    border-radius: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-size: 100%;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: relative;
+}
