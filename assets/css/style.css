@@ -1,3 +1,4 @@
+
 .content-wrapper {
     position: relative;
     display: flex;
@@ -22,8 +23,21 @@
     padding: 10px 0;
     position: relative;
 }
+.insta-header {
+    margin: 50px 0;
+}
+.insta-header .insta-heading{
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y-/r/yXM3FgMdVNX.png);
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
 .content1 {
-    background-color: rgb(253, 252, 252);
+    /* background-color: rgb(253, 252, 252); */
+    background-color: #ffffff;
     border:1px  solid rgb(219, 219, 219);
     width: 300px;
     max-width: 100%;
@@ -35,4 +49,17 @@
 }
 .insta-font {
     margin: 20px 0;
+}
+.inputType {
+    display: flex;
+}
+button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-weight: 700;
+    background-color: rgb(0, 149, 246);
+    color: white;
 }
