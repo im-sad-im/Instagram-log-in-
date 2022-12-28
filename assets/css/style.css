@@ -1,4 +1,8 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .content-wrapper {
     position: relative;
     display: flex;
@@ -24,7 +28,7 @@
     position: relative;
 }
 .insta-header {
-    margin: 50px 0;
+    margin: 46px 0;
 }
 .insta-header .insta-heading{
     background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y-/r/yXM3FgMdVNX.png);
@@ -51,11 +55,35 @@
     margin: 20px 0;
 }
 .inputType {
+    /* display: flex; */
+    width: 100%;
+    /* background-color: hotpink; */
+    /* justify-content: center; */
+}
+.form-wrapper {
     display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 5px;
+}
+.btnInput {
+    width: 100%;
+    height: 36px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 0.75rem;
+}
+.btnInput:focus{
+    outline: none;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: #5f5e5e; 
+    
 }
 .log-in-btn{
     width: 100%;
-    padding: 5px;
+    height:30px;
     border: none;
     margin-top: 10px;
     border-radius: 7px;
