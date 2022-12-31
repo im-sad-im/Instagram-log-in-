@@ -110,10 +110,13 @@ body {
     font-size: 1.15rem;
     margin-right: 2px;
 }
+.pwd-content {
+    padding: 10px 70px 20px;
+}
 .f-pwd {
     font-weight: 200;
     font-size: 0.8rem;
-    color: rgb(0, 55, 107)
+    color: rgb(0, 55, 107);
 }
 .line {
     display: flex;
@@ -141,6 +144,7 @@ body {
  justify-content: center;
  display: flex;
     align-items: center;
+    margin: 20px 0 10px;
 }
 .redirectBtn {
     background: none;
@@ -150,12 +154,13 @@ body {
     font-size: 14px;
     font-weight: 600;
     /* align-items: center; */
+    
 }
 .dont {
-    /* border:#5f5e5e; */
     padding: 20px 0;
     flex-direction: row;
     justify-content: center;
+    gap: 3px;
 }
 .dont-para {
     font-size: 14px;
@@ -164,6 +169,12 @@ body {
 a.redirectBtn {
     text-decoration: none;
     color: #0095F6;
+}
+.storeContent{
+    flex-direction: column;
+    align-items: center;
+    gap : 20px;
+    margin-top: 25px;
 }
 .store-img {
     height: 40px;
