@@ -1,0 +1,6 @@
+/* reponsive css */
+@media screen and (max-width:876px) {
+    .left {
+        display: none;
+    }
+}
