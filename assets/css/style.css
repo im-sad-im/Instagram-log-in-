@@ -60,14 +60,35 @@ body {
     align-items: center;
     margin-top: 10px;
 }
+.label-class {
+    position: relative;
+    font-size: 100%;
+}
+.input-holders{
+    position: absolute;
+    height: 36px;
+    left: 7px;
+    right: 0;
+    line-height: 36px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 12px;
+    color: rgb(142,142, 142);
+    border: 0;
+    transition: font .1s ease,top .1s ease,transform .1s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.label-class .btnInput:focus ~ span{
+    bottom: 0;
+    right: 0;
+    font-size: 0.6rem;
+    pointer-events: none;
+}
 .insta-font {
     margin: 20px 0;
 }
 .inputType {
-    /* display: flex; */
     width: 100%;
-    /* background-color: hotpink; */
-    /* justify-content: center; */
 }
 .form-wrapper {
     display: flex;
@@ -90,7 +111,6 @@ body {
     outline-style: solid;
     outline-width: thin;
     outline-color: #5f5e5e; 
-    
 }
 .log-in-btn{
     width: 100%;
